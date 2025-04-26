@@ -1,0 +1,340 @@
+@media only screen and (max-width: 2080px) {
+  .content-left {
+    width: 22%;
+  }
+
+  .content-right {
+    width: 78%;
+    padding: 10px;
+  }
+
+  header {
+    justify-content: space-between;
+    gap: 0px;
+  }
+
+  header .slogan {
+    width: 350px;
+  }
+
+  header form {
+    height: 40px;
+  }
+
+  header form input {
+    height: 44px;
+  }
+
+  header form {
+    width: 270px;
+  }
+
+  header form input {
+    padding: 0px 60px 0px 10px;
+    width: 275px;
+  }
+
+  header .admin-box {
+    width: 150px;
+    justify-content: space-between;
+  }
+
+  header .admin-box p {
+    font-size: 15px;
+  }
+
+  .board-list {
+    align-items: end;
+    justify-content: space-between;
+  }
+
+  .content .head {
+    padding: 5px 10px;
+    grid-template-columns: 138px 138px 138px 138px 138px 138px 138px;
+  }
+
+  .content .one-students {
+    grid-template-columns: 138px 138px 138px 138px 138px 138px 138px;
+    padding: 5px 10px;
+  }
+
+  .all-students nav {
+    min-width: 700px;
+  }
+
+  .register {
+    width: 85%;
+    margin-left: 19%;
+  }
+
+  .content-register {
+    width: 82%;
+  }
+
+  .content-register .right {
+    width: 60%;
+  }
+
+  .grid {
+    grid-template-columns: 220px 220px;
+  }
+
+  .register {
+    width: 78%;
+    margin-left: 22%;
+  }
+
+  .reegister {
+    width: 78%;
+    margin-left: 22%;
+  }
+
+  .reegister .list-students {
+    width: 50%;
+  }
+
+  .menu {
+    grid-template-columns: 50px 150px 150px 100px 70px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .content-left {
+    width: 95%;
+    position: absolute;
+    z-index: 5000000;
+    display: none;
+  }
+
+  .content-right {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+
+  .slogan p {
+    display: none;
+  }
+
+  header .date {
+    display: none;
+  }
+
+  header .slogan {
+    width: 30%;
+  }
+
+  header form {
+    width: 40%;
+  }
+
+  header form input {
+    padding: 0px 5px 0px 10px;
+    width: 100%;
+    border: none;
+  }
+
+  header .admin-box {
+    width: 30%;
+    justify-content: space-between;
+  }
+
+  header .admin-box p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .board-list {
+    overflow: hidden;
+    overflow-x: auto;
+    scrollbar-width: none;
+    gap: 15px;
+  }
+
+  .all-students .top-bar h1 {
+    display: none;
+  }
+
+  .content .head h1:nth-child(2),
+  .content .head h1:nth-child(4),
+  .content .head h1:nth-child(5),
+  .content .head h1:nth-child(6),
+  .content .one-students p:nth-child(2),
+  .content .one-students p:nth-child(4),
+  .content .one-students p:nth-child(5),
+  .content .one-students p:nth-child(6) {
+    display: none;
+  }
+
+  .content .head {
+    padding: 5px 0px;
+    grid-template-columns: 20% 60% 20%;
+  }
+
+  .content .one-students {
+    padding: 5px 0px;
+    grid-template-columns: 20% 55% 25%;
+  }
+
+  .content .one-students p:last-child img {
+    display: none;
+  }
+
+  .content .one-students p:last-child {
+    color: var(--blue-color);
+  }
+
+  .all-students nav {
+    min-width: 60%;
+  }
+
+  .add {
+    font-size: 11px;
+  }
+
+  .content-register .left {
+    display: none;
+  }
+
+  .register {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .reegister {
+    width: 100%;
+    margin: 0;
+  }
+
+  .content-register {
+    width: 95%;
+  }
+
+  .content-register .right {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .grid {
+    grid-template-columns: 50% 50%;
+  }
+
+  .reegister {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .reegister .list-students {
+    width: 95%;
+  }
+
+  .menu p:nth-child(2),
+  .menu p:nth-child(4),
+  .list-scroll .p p:nth-child(2),
+  .list-scroll .p p:nth-child(4) {
+    display: none;
+  }
+
+  .menu {
+    grid-template-columns: 50px 130px 150px;
+  }
+}
+
+.fee-infos {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #00000070;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fee-infos form {
+  padding: 30px;
+  display: grid;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  gap: 10px;
+  -o-border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.674);
+  animation: form 1s forwards;
+  -webkit-animation: form 1s forwards;
+}
+
+@keyframes form {
+  from {
+    opacity: 0;
+    transform: translateX(20%);
+    -webkit-transform: translateX(20%);
+    -moz-transform: translateX(20%);
+    -ms-transform: translateX(20%);
+    -o-transform: translateX(20%);
+  }
+
+  to {
+    opacity: 1;
+  }
+
+}
+
+.fee-infos form label {
+  height: 30px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 20% 40% 10%;
+}
+
+.fee-infos form label input {
+  padding: 5px;
+  height: 35px;
+  border: none;
+}
+
+.fee-infos .btn-cont {
+  display: grid;
+  width: 100%;
+  align-items: center;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.fee-infos .btn-cont button {
+  padding: 8px 10px;
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  color: #fff;
+  -o-border-radius: 4px;
+}
+
+.fee-infos .btn-cont button:hover {
+  cursor: pointer;
+}
+
+.fee-infos .btn-cont button:first-child {
+  background-color: #297897;
+}
+
+.fee-infos .btn-cont button:first-child:hover {
+  background-color: #216a87;
+}
+
+.fee-infos .btn-cont button:last-child {
+  background-color: #f17a7a;
+}
+
+.fee-infos .btn-cont button:last-child:hover {
+  background-color: #e66969;
+}

@@ -1,0 +1,127 @@
+@media only screen and (max-width: 2080px) {
+
+
+    .content-left {
+        width: 22%;
+    }
+
+    .top .english-contain {
+        width: 70%;
+    }
+
+    .content-right .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .top .list-year {
+        width: 30%;
+    }
+
+    .bottom-chinese {
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        align-items: center;
+    }
+
+    .bottom-chinese .list-year {
+        width: 30%;
+    }
+
+    .bottom-chinese .img {
+        width: 69%;
+    }
+
+    .bottom-chinese .text-layer {
+        width: 45%;
+    }
+
+    #admin-div .box-verify {
+        width: 50%;
+        height: 260px;
+    }
+
+    .box-verify footer {
+        width: 50%;
+    }
+
+    .box-verify form {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .content-left {
+        width: 95%;
+        position: absolute;
+        z-index: 5000000;
+        display: none;
+    }
+
+
+  
+    .content-right {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content-right .top {
+        display: grid;
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-x: auto;
+        grid-template-columns: auto auto;
+        scrollbar-width: none;
+    }
+
+    .top .english-contain {
+        width: 770px;
+        display: inline-block;
+    }
+
+    .top .list-year {
+        width: 300px;
+    }
+
+    .bottom-chinese {
+        display: grid;
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-x: auto;
+        grid-template-columns: auto auto;
+        scrollbar-width: none;
+        gap: 12px;
+    }
+
+
+    .bottom-chinese .img {
+        width: 585px;
+    }
+
+    .bottom-chinese .list-year {
+        width: 300px;
+    }
+
+    .bottom-chinese .text-layer {
+        width: 470px;
+    }
+
+    #admin-div .box-verify {
+        width: 93%;
+        height: 300px;
+    }
+
+    .box-verify footer {
+        width: 66%;
+    }
+
+    .box-verify form {
+        height: 10000px;
+    }
+
+   
+}

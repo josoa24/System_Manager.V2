@@ -1,0 +1,134 @@
+* {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid black; */
+    color: #444242;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff2f;
+    height: 100vh;
+}
+
+.identity {
+    width: 22px;
+    height: 22px;
+}
+
+.content {
+    background-color: #fff;
+    margin: 0px auto;
+    overflow: hidden;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.527);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.left-logo {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100%;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #0b71ff49;
+}
+
+.left-logo img {
+    width: 400px;
+    object-fit: cover;
+}
+
+.all-util {
+    display: block;
+    padding: 10px;
+    height: 100%;
+}
+
+.all-util h1 {
+    text-align: center;
+    margin: 50px 0px;
+    font-weight: bolder;
+}
+
+input {
+    display: block;
+}
+
+form {
+    display: block;
+    height: 20vh;
+    width: 100%;
+}
+
+
+form label {
+    display: flex;
+    height: 40px;
+    margin-bottom: 10px;
+    transform: translateX(14%);
+    /*tmargin: 0px auto;
+    */
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(14%);
+    -ms-transform: translateX(14%);
+    -o-transform: translateX(14%);
+    -webkit-transform: translateX(14%);
+    align-items: center;
+    border-bottom: 1px solid rgb(185, 182, 182);
+    overflow: hidden;
+}
+
+form input {
+    padding: 0px 5px;
+    width: 92%;
+    height: 40px;
+    border: none;
+}
+
+form input[type="submit"] {
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    background-color: #0b71ffd9;
+    box-shadow: 0px 0px 5px #0b71ff5f;
+    transition: 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #106deffd;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+
+}
+
+#passwordIcon {
+    width: 20px;
+}
+
+.bx-id-card {
+    font-size: 20px;
+}
+
+select {
+    font-size: 14px;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    display: block;
+}

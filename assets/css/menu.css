@@ -1,0 +1,106 @@
+@media only screen and (max-width: 2080px) {
+
+    .close-container,
+    .show-container {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .close-container {
+        height: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .close-container img {
+        width: 35px;
+        height: 35px;
+        border: 1px solid #44424218;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+    }
+
+    .close-container img:hover {
+        background-color: #eeeded50;
+        cursor: pointer;
+    }
+
+    .makeItHiden {
+        animation: makeItHiden 1s forwards;
+        -webkit-animation: makeItHiden 1s forwards;
+    }
+
+    @keyframes makeItHiden {
+        to {
+            transform: translateX(-100%);
+            -webkit-transform: translateX(-100%);
+            -moz-transform: translateX(-100%);
+            -ms-transform: translateX(-100%);
+            -o-transform: translateX(-100%);
+        }
+    }
+
+    .makeItShown {
+        animation: makeItShown 1s forwards;
+        -webkit-animation: makeItShown 1s forwards;
+
+    }
+
+    @keyframes makeItShown {
+        from {
+            transform: translateX(-100%);
+            -webkit-transform: translateX(-100%);
+            -moz-transform: translateX(-100%);
+            -ms-transform: translateX(-100%);
+            -o-transform: translateX(-100%);
+        }
+
+        to {
+            transform: translateX(0%);
+            -webkit-transform: translateX(0%);
+            -moz-transform: translateX(0%);
+            -ms-transform: translateX(0%);
+            -o-transform: translateX(0%);
+        }
+    }
+
+    .show-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: var(--blue-color);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        top: 40%;
+        z-index: 1;
+        left: -16px;
+        box-shadow: 0px 0px 2px black;
+        transition: 0.3s ease-in-out;
+        -webkit-transition: 0.3s ease-in-out;
+        -moz-transition: 0.3s ease-in-out;
+        -ms-transition: 0.3s ease-in-out;
+        -o-transition: 0.3s ease-in-out;
+    }
+
+    .show-container img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .show-container:hover {
+        cursor: pointer;
+        background-color: #0c1c35;
+    }
+}

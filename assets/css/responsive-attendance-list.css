@@ -1,0 +1,125 @@
+* {
+  text-wrap: nowrap;
+}
+
+.list-presence {
+  height: 90%;
+  background-color: #fcfcfc;
+  margin-top: 10px;
+  box-shadow: 2px 2px 5px #c6c2c2;
+  padding: 5px;
+}
+
+.list-presence-rollement {
+  height: 90%;
+  background-color: #fcfcfc;
+  margin-top: 10px;
+  overflow: auto;
+  box-shadow: 2px 2px 5px #c6c2c2;
+  padding: 5px;
+}
+
+.headList {
+  grid-template-columns: 119px 20% 20% 20% 20%;
+  background-color: #eee;
+  padding: 5px;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  display: grid;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.headList p {
+  text-align: center;
+  min-width: 101px;
+  overflow: hidden;
+  font-weight: bold;
+  text-wrap: nowrap;
+}
+
+.each-presence {
+  grid-template-columns: 119px 20% 20% 20% 20%;
+  align-items: center;
+  height: 45px;
+  width: 100%;
+  display: grid;
+  overflow: hidden;
+  margin-bottom: 2px;
+}
+
+.each-presence p {
+  min-width: 50px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 14px;
+}
+
+.each-presence:nth-child(odd) {
+  border-left: 3px solid #29789796 !important;
+  background-color: #2978971a;
+}
+
+@media only screen and (max-width: 2080px) {
+  .headList {
+    grid-template-columns: 119px 20% 20% 20% 20%;
+  }
+
+  .each-presence {
+    grid-template-columns: 119px 20% 20% 20% 20%;
+  }
+
+  .list-presence {
+    width: 100%;
+    border-radius: 13px;
+  }
+
+  .each-presence img {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0px auto;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .list-presence {
+    width: 98%;
+    margin: 10px auto;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+  }
+
+  .headList {
+    grid-template-columns: 119px 40% 40%;
+  }
+
+  .headList p:nth-child(2),
+  .headList p:nth-child(3),
+  .each-presence p:nth-child(2),
+  .each-presence p:nth-child(3) {
+    display: none;
+  }
+
+  .each-presence {
+    grid-template-columns: 119px 40% 40%;
+  }
+
+  .headList p:last-child,
+  .each-presence p:last-child {
+    text-align: start !important;
+  }
+
+  .each-presence img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0px auto;
+  }
+}

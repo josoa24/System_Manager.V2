@@ -1,0 +1,280 @@
+* {
+    text-wrap: nowrap;
+    box-sizing: border-box;
+}
+
+.teacher-container {
+    width: 100%;
+    height: 90%;
+    display: grid;
+    overflow: auto;
+    scrollbar-width: none;
+    gap: 10px;
+}
+
+.present {
+    background-color: #5fdf85c7 !important;
+    border: none !important;
+    color: #fff !important;
+}
+
+.teacher-box {
+    margin-top: 80px;
+    height: 160px;
+    position: relative;
+    border-radius: 5px;
+    background-color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px;
+}
+
+.teacher-box .img-cont {
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    top: -70px;
+    left: -0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+
+}
+
+.teacher-box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 3px solid white;
+    object-fit: cover;
+
+}
+
+.teacher-box h1,
+.teacher-box h4,
+.teacher-box h5 {
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.teacher-box h4 {
+    font-weight: 505;
+}
+
+.teacher-box h5 {
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.teacher-box h1 {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.days {
+    width: 100%;
+    margin: 3px 0px 5px 0px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    gap: 5px;
+}
+
+.dayS {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dbdbdb;
+    border: 1px solid #cacaca;
+    font-size: 10px;
+}
+
+.teacher-box button {
+    width: 100%;
+    padding: 7px 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: var(--blue-color);
+}
+
+.teacher-box button:hover {
+    cursor: pointer;
+    background-color: #205e77;
+}
+
+@media only screen and (max-width: 2080px) {
+    .teacher-container {
+        grid-template-columns: auto auto auto;
+        margin: 0px;
+    }
+
+    .teacher-box {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .teacher-container {
+        grid-template-columns: auto auto;
+        margin: 7px;
+    }
+
+    .teacher-box {
+        width: 95%;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .teacher-container {
+        padding: 10px;
+        grid-template-columns: auto;
+        margin: 0px;
+    }
+
+    .teacher-box {
+        width: 98%;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+}
+
+.confirm-mark {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000070;
+    z-index: 2;
+}
+
+.confirm-mark form {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.513);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    gap: 15px;
+    background-color: #fff;
+    position: relative;
+}
+
+.confirm-mark form img:not(:first-child) {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0px auto;
+    border: 5px solid var(--blue-color);
+}
+
+.confirm-mark form img:first-child {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 20px;
+    right: 20px
+}
+
+.confirm-mark form img:first-child:hover {
+    cursor: pointer;
+}
+
+
+.confirm-mark form p:nth-child(3) {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirm-mark form p:nth-child(4) {
+    text-align: center;
+    font-size: 14px;
+}
+
+.confirm-mark form input[type="number"] {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: none;
+    text-align: center;
+    font-size: 25px;
+}
+
+.confirm-mark form button {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: none;
+    background-color: var(--blue-color);
+    color: #fff;
+    justify-content: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.confirm-mark form a {
+
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: var(--blue-color);
+    color: #fff;
+    justify-content: center;
+}
+
+.confirm-mark form button:hover {
+    background-color: #205e77;
+    cursor: pointer;
+}
