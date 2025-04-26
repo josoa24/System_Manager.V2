@@ -183,7 +183,7 @@ $id_School =  $_SESSION['id_School'];
               <img src="../../assets/images/book1.png" alt="" />
             </div>
           </div>
-          <a href="traitement-admin.php?name=CHINESE&year=<?= date("Y"); ?>"><button>View more</button></a>
+          <!-- <a href="../treatment/traitement-admin.php?name=CHINESE&year=<?= date("Y"); ?>"><button>View more</button></a> -->
         </div>
       </div>
     </div>

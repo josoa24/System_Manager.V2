@@ -201,10 +201,10 @@ $levelsNumber = getLevelsNumber($option);
           <div class="each-list <?php if ($level[2] == 1) {
                                   echo 'activeOnglet';
                                 } ?>" data-anim="<?php echo $level[2]; ?>">
-            <img class="img-btn" data-img="<?= $level[0] ?>" src="../../assets/images/info_24dp_297897_FILL0_wght400_GRAD0_opsz24.png" alt="">
-            <img class="img-btn" data-img="<?= $level[0] ?>" src="../../assets/images/info_24dp_F17A7A_FILL0_wght400_GRAD0_opsz24.png" alt="">
-            <img class="img-btn" data-img="<?= $level[0] ?>" src="../../assets/images/info_24dp_74BC8E_FILL0_wght400_GRAD0_opsz24.png" alt="">
-            <img class="img-btn" data-img="<?= $level[0] ?>" src="../../assets/images/info_24dp_FFC760_FILL0_wght400_GRAD0_opsz24.png" alt="">
+            <!-- <img class="img-btn" data-img="<?= $level[0] ?>" src="../../assets/images/info_24dp_297897_FILL0_wght400_GRAD0_opsz24.png" alt=""> -->
+            <!-- <img class="img-btn" data-img="<?= $level[0] ?>" src="../../assets/images/info_24dp_F17A7A_FILL0_wght400_GRAD0_opsz24.png" alt=""> -->
+            <!-- <img class="img-btn" data-img="<?= $level[0] ?>" src="../../assets/images/info_24dp_74BC8E_FILL0_wght400_GRAD0_opsz24.png" alt=""> -->
+            <!-- <img class="img-btn" data-img="<?= $level[0] ?>" src="../../assets/images/info_24dp_FFC760_FILL0_wght400_GRAD0_opsz24.png" alt=""> -->
             <div class="chart">
               <img src="../../assets/images/equalizer_24dp_297897_FILL0_wght400_GRAD0_opsz24.png" alt="">
               <img src="../../assets/images/equalizer_24dp_F38F8F_FILL0_wght400_GRAD0_opsz24.png" alt="">
@@ -246,7 +246,7 @@ $levelsNumber = getLevelsNumber($option);
                   <img src="../../assets/images/add_circle_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="">
                   <div class="btn-cont" style="display: none;">
                     <button class="btn-register" data-btn="<?php echo $i; ?>">Register <img src="../../assets/images/chevron_right_24dp_FILL0_wght400_GRAD0_opsz24.png" alt=""></button>
-                    <button class="btn-reegister" data-btn="<?php echo $i; ?>">Reregister <img src="../../assets/images/chevron_right_24dp_FILL0_wght400_GRAD0_opsz24.png" alt=""></button>
+                    <!-- <button class="btn-reegister" data-btn="<?php echo $i; ?>">Reregister <img src="../../assets/images/chevron_right_24dp_FILL0_wght400_GRAD0_opsz24.png" alt=""></button> -->
                   </div>
                 </div>
               </div>
