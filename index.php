@@ -28,8 +28,7 @@
           <img src="https://img.icons8.com/material-outlined/24/000000/visible--v1.png" class="password-icon" id="passwordIcon" onclick="togglePasswordVisibility()">
         </label>
         <select name="school" id="">
-          <option value="1">ISORAKA</option>
-          <option value="2">TSARASAOTRA</option>
+          <option value="1">MIAMI</option>
         </select>
         <?php if (isset($_GET['error'])) { ?>
           <p class="error">Please verify your user name or your password</p>
