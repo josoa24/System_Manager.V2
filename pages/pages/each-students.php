@@ -42,7 +42,7 @@ $students_Level = get_Students_Current_Level($id_School, $idOption, $idStudent);
     <a href="sessions.php">
       <div class="each" id="uni"><img src="../../assets/images/stacks_24dp_444242_FILL0_wght400_GRAD0_opsz24.png" alt="">Sessions</div>
     </a>
-    <a href="teachers.php">
+    <!-- <a href="teachers.php">
       <div class="each">
         <img src="../../assets/images/groups_24dp_444242_FILL0_wght400_GRAD0_opsz24.png" alt="">Teachers
       </div>
@@ -57,7 +57,7 @@ $students_Level = get_Students_Current_Level($id_School, $idOption, $idStudent);
       <div class="each">
         <img src="../../assets/images/account_balance_wallet_24dp_444242_FILL0_wght400_GRAD0_opsz24.png" alt="">Savings
       </div>
-    </a>
+    </a> -->
     <a href="all-students.php">
       <div class="each"><img src="../../assets/images/keyboard_backspace_24dp_444242_FILL0_wght400_GRAD0_opsz24.png" alt="">Go back</div>
     </a>
