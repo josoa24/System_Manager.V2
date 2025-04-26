@@ -119,7 +119,7 @@ $level4Students = getStudentsLevel($id_School, 4, $options, $year);
                         </div>
                         <div class="right-session">
                             <h3><?php echo $print['sessionsName']; ?></h3>
-                            <h1>1000</h1>
+                            <!-- <h1>1000</h1> -->
                             <div class="progression">
                                 <div class="inside" style="width: 92%;"></div>
                             </div>
